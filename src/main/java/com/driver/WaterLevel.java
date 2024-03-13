@@ -3,6 +3,7 @@ package com.driver;
 public class WaterLevel {
     private String siteName;
     private double waterLevel;
+    private double thresholdLevel;
 
     public WaterLevel(String siteName, double waterLevel) {
         this.siteName = siteName;
@@ -17,6 +18,14 @@ public class WaterLevel {
     public double getWaterLevel() {
     	//your code goes here
         return waterLevel;
+    }
+
+    public double getThresholdLevel() {
+        return thresholdLevel;
+    }
+
+    public void setThresholdLevel(double thresholdLevel) {
+        this.thresholdLevel = thresholdLevel;
     }
 }
 

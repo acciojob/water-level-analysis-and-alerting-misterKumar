@@ -12,6 +12,7 @@ public class WaterLevelDataRepository {
 
     public void storeWaterLevel(WaterLevel waterLevel) {
     	//your code goes here
+        waterLevels.add(waterLevel);
     }
 
     public List<WaterLevel> getAllWaterLevels() {
